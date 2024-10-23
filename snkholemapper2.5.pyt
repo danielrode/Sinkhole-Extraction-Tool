@@ -56,7 +56,7 @@ class DEMCreator(object):
         lasdir = parameters[0].valueAsText
         outputraster = parameters[1].valueAsText
         crs = parameters[2].valueAsText
-        return_values = "Last Return"
+        return_values = "LAST"
         binningcell=parameters[3].valueAsText
         binningvoid=parameters[4].valueAsText
         outputdatatype=parameters[5].valueAsText
